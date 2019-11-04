@@ -50,18 +50,3 @@ z -= x
 print(f" z = z - x  z-=x  {z}")
 z /= x
 print(f" z = z / x  z/=x  {z}")
-
-print("\n **** UNARY MINUS ****")
-print(" =           X = 5              X = 5  ")
-print(" +=          X += 5             X = X +  5 ")
-print(" -=          X -= 5             X = X -  5 ")
-print(" *=          X *= 5             X = X *  5 ")
-print(" /=          X /= 5             X = X /  5 ")
-print(" %=          X %= 5             X = X %  5 ")
-print(" //=         X //= 5            X = X // 5 ")
-print(" **=         X **= 5            X = X**5 ")
-
-
-print("Relational")
-
-print("Logical")
