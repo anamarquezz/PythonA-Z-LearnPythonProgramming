@@ -18,6 +18,7 @@ class Employee:
         return self.final_salary.annual_salary()
 
 
+# passing object as an argument inside another class
 sal = Salary(100000, 10000)
 emp = Employee("Shubham", "Py Dev", sal)
 
