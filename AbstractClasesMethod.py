@@ -3,6 +3,8 @@
 
 from abc import ABC, abstractmethod
 
+# from abc import *  -Discussing Over import and from
+
 
 class Shape(ABC):  # now is an abstract class
 
