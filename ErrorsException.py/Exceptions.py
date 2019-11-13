@@ -24,3 +24,21 @@ concat("Hello", 50)
 #     RuntimeError   ---|
 #     ImportError    ---|
 #     NameError      ---|
+
+
+#                                    BaseException
+#                                        |
+#                                     Exception
+#           _____________________________|______________________________________________________
+#           |                   |                 |                       |                   |
+#           |                   |                 |                       |                   |
+#     ArthmeticError          OSError        RuntimeError           LookupError       SyntaxError#
+#           |                   |                                         |                   |
+#           |                   |                                         |                   |
+#     ZeroDivisionError         |                                         |              IdentationError
+#                               |                                         |
+#                               |                                         |
+#                      _________|__________                      _________|__________
+#                      |                  |                      |                  |
+#                      |                  |                      |                  |
+#            FileNotFoundError       PermissionError          IndexError         keyError
