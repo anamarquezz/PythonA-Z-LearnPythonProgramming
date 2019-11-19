@@ -1,20 +1,8 @@
-# pip install pytube
-
-from pytube import YouTube
-
-'''
-yt = YouTube("https://www.youtube.com/watch?v=_1fuQco3Tes")
-print(yt.streams.all())
-print("\n")
-dw = yt.streams.get_by_itag(22)
-dw.download(
-    "c:\\Users\\anamarquez\\source\\Repass\\PythonA-Z-LearnPythonProgramming\\Project_VidieoDownloader\\")
-
-
 
 '''
 # download multiple videos
 
+'''
 # video_list = ["https://www.youtube.com/watch?v=UBnfm4s7CRA",
 #             "https://www.youtube.com/watch?v=I8uqz-hQnZs", "https://www.youtube.com/watch?v=_lwn4uDGKfU"]
 video_list = open(
